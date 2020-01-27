@@ -1,0 +1,5 @@
+class Some extends Take {
+  num altitude;
+  Orbiter(String name, DateTime launchDate, this.altitude)
+      : super(name, launchDate);
+}
